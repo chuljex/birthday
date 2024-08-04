@@ -233,6 +233,7 @@ span {
 }
 
 .avatar__img {
+  object-fit: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -242,6 +243,17 @@ span {
   -moz-animation: balloon1 6s ease-in-out infinite;
   -o-animation: balloon1 6s ease-in-out infinite;
   animation: balloon1 6s ease-in-out infinite;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.avatar__img.left {
+  left: 50%;
+}
+
+.avatar__img.ring {
+  right: 50%;
 }
 
 .avatar__title {
