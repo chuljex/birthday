@@ -249,11 +249,11 @@ span {
 }
 
 .avatar__img.left {
-  left: 50%;
+  left: 80%;
 }
 
 .avatar__img.right {
-  right: 50%;
+  right: 80%;
 }
 
 .avatar__title {
